@@ -11,6 +11,10 @@
     
 }
     
+    html {
+  scroll-behavior: smooth;
+}
+    
     @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -30,12 +34,13 @@
     }
 
     #planet1{
-       padding-top: 100vh;   
+       padding-top: 100vh;
+        padding-bottom: 500px;
         
     }
     
      #planet2{
-      position: relative;
+
   bottom: 50px;
   width: 100%;
  margin-top: 60vh;
@@ -86,6 +91,12 @@
         font-size: 40px;
        
         }
+    
+    .video
+    {
+            bottom: 163px;   
+        
+    }
     
     
 #knap {
@@ -164,17 +175,12 @@ På Rysensteen er undervisning sjovt - især science
     
     <!planet2 m/ video:>
     
+    <iframe style="display: block; margin: auto; top: 3600px; box-shadow: 0 0 25px rgba(0,0,0,0.5); margin-bottom: -1400px;" width="800" height="500" src="https://www.youtube.com/embed/QGxoRKP97wk"></iframe> 
     
-    
-      <div id="planet2">
           
-       
-        <img src="Images/planet2.png" width="100%" height="1300">
+        <img  id="planet2" src="Images/planet2.png" width="100%" height="1300">
          
-     
-        <iframe style="position: relative; display: block; margin: auto; margin-bottom: -850px; box-shadow: 0 0 25px rgba(0,0,0,0.5);" width="800" height="500" src="https://www.youtube.com/embed/QGxoRKP97wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-    </div>
+
     
      
     
@@ -229,7 +235,7 @@ På Rysensteen er undervisning sjovt - især science
       <!javascript til knap:>
      <script>
      function topFunction() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({top: 0, behavior: 'smooth'})
 }
 </script>
 
