@@ -33,14 +33,41 @@
             
     }
 
-    #planet1{
+     #planet1top{
         position: relative;
        padding-top: 100vh;
-        padding-bottom: 100px;
+        
+         margin: -4px;
         
     }
     
-   
+     #planet1bund{
+        position: relative;
+       padding-top: 0vh;
+      padding-bottom: -10px;  
+      
+        
+    }
+    
+    #planet1{
+        position: relative;
+       padding-top: 0vh;
+        padding-bottom: 0x;
+        
+        
+    }
+    
+     .video
+    {
+        position: relative;
+            margin-bottom: -1000px;  
+        bottom: 1000px; 
+         width:100%;
+    float:left;
+    text-align: center;
+        
+        
+    }
      .planet2{
 position: relative;
   bottom: 0px;
@@ -49,16 +76,7 @@ position: relative;
          
          
           }
-     .video
-    {
-        position: absolute;
-            bottom: -3100px;  
-         width:100%;
-    float:left;
-    text-align: center;
-        
-        
-    }
+   
     
     
     
@@ -83,20 +101,21 @@ position: relative;
         }
    
     .tekst1 {
-            position: absolute;
-            top: 170vh;
+            position: relative;
+            top: 0vh;
             padding-left: 6vw;
         padding-right: 52vw;
         color: #ffffff;
         font-family: "Josefin Sans";
         font-size: 40px;
+        background-color: #336666;
        
         }
     
     
     .tekst2 {
-            position:absolute;
-            top: 178.5vh;
+       position: absolute;
+            top: 160px;
             padding-left: 52vw;
         padding-right: 6vw;
         color: #ffffff;
@@ -143,13 +162,20 @@ position: relative;
             <br><br> Så vælg Rysensteen!
         </p>
     
-    <!planet1>
-   <div id="planet1">
-        <img src="Images/planet1.png" width="100%" height="2000">
+    
+    <div id="planet1top">
+        <img src="Images/planet1topp.png" width="100%" >
+        
     </div>
-    <h1 class="tekst1">Overvejer du science?</h1>
-    <p class="tekst1" >
-          <br><br>   
+
+    
+    
+    <!planet1>
+  <div id="planet1">  
+    
+        <p class="tekst1" >
+          <br>Overvejer du science?
+            <br><br>   
 Kunne du tænke dig at vide, hvor mange bananer du kan spise, før du dør af radioaktiv forgiftning? Måske interesserer det dig, hvordan en partikel kan eksistere to steder på samme tid?
         
         <br><br>
@@ -164,7 +190,7 @@ Her har du nemlig muligheden for at vælge mellem hele 4 forskellige science-stu
 
 
         </p>
-    
+   
     <p class="tekst2" >
     
 
@@ -179,7 +205,15 @@ På Rysensteen er undervisning sjovt - især science
 
 
         </p>
+    </div>
+   
+   
+
     
+     <div id="planet1bund">
+        <img src="Images/planet1bund.png" width="100%" >
+        
+    </div>
     
     
     <!planet2 m/ video:>
@@ -196,16 +230,16 @@ På Rysensteen er undervisning sjovt - især science
         
         <img  src="Images/planet2.png" width="100%" height="1500px">
           
-        
-
-    </div>
-     
-    <div class="video">
+      <div class="video">
     
         
         <iframe style=" margin: 0 auto; box-shadow: 0 0 25px rgba(0,0,0,0.5); " width="800vw" height="500" src="https://www.youtube.com/embed/QGxoRKP97wk"></iframe>
     
+    </div>  
+
     </div>
+     
+    
     
     
     </div>
